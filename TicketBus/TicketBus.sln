@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35919.96 d17.13
+VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketBus.WebApi", "TicketBus.WebApi\TicketBus.WebApi.csproj", "{3E615502-98B4-4EE6-B5CB-6CA9C3BFD416}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketBus.BLL", "TicketBus.BLL\TicketBus.BLL.csproj", "{154341FA-0795-4A1A-9341-6AA00EE595EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketBus.DAL", "TicketBus.DAL\TicketBus.DAL.csproj", "{8E6E7658-873A-4924-89D8-ADC4CE625F10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{3E615502-98B4-4EE6-B5CB-6CA9C3BFD416}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E615502-98B4-4EE6-B5CB-6CA9C3BFD416}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E615502-98B4-4EE6-B5CB-6CA9C3BFD416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{154341FA-0795-4A1A-9341-6AA00EE595EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{154341FA-0795-4A1A-9341-6AA00EE595EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{154341FA-0795-4A1A-9341-6AA00EE595EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{154341FA-0795-4A1A-9341-6AA00EE595EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E6E7658-873A-4924-89D8-ADC4CE625F10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E6E7658-873A-4924-89D8-ADC4CE625F10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E6E7658-873A-4924-89D8-ADC4CE625F10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E6E7658-873A-4924-89D8-ADC4CE625F10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
