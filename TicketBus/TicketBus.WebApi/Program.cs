@@ -1,9 +1,21 @@
-var builder = WebApplication.CreateBuilder(args);
+using Microsoft.EntityFrameworkCore;
+using TicketBus.DAL.Persistence;
 
+var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+builder.Services.AddDbContext<TicketBusDbContext>(options => 
+{
+    options.UseSqlServer(connectionString, opt =>
+    { 
+        opt.MigrationsAssembly(typeof(TicketBusDbContext).Assembly.GetName().Name);
+    });
+});
 
 var app = builder.Build();
 

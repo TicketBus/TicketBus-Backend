@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TicketBus.DAL\TicketBus.DAL.csproj" />
+  </ItemGroup>
+
 </Project>
